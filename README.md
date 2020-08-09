@@ -35,7 +35,7 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina only))
 - Fingerprint reader
 - SD Card Reader
 
-## 440/450 user:
+## For 440/450 users:
 - Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
 
 ## Known issues:
