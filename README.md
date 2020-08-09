@@ -1,4 +1,4 @@
-# HP ProBook 430 G6 Hackintosh
+# HP ProBook 430/440/450 G6 Hackintosh
 
 ## Configuration
 | Specifications      | Detail                       |
