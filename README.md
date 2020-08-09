@@ -24,12 +24,14 @@
 - HDMI Video and Audio
 - USB 3.0
 - Battery Management (thanks to [anor4k](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/page-500#post-2021126) and [e285ne](https://www.tonymacx86.com/threads/guide-hp-probook-430-g6-whiskey-lake.282302/page-6#post-2147595))
-- Brightness keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
+- Brightness
+- Brightness fn keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
 - Built-in camera
 - Built-in mic
 - Bluetooth Intel
 - Intel wireless ([itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort)/[
 Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina only))
+- Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
 
 ## Not working:
 - Fingerprint reader
