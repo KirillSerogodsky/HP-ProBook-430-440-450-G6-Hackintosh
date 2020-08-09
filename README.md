@@ -14,7 +14,7 @@
 - macOS 10.15 Catalina
 - macOS 11.00 Big Sur (Beta)
 
-# What is Working?
+## What is Working?
 - Native CPU Power Management
 - Sleep/Wake
 - Intel Graphics
@@ -29,9 +29,9 @@
 - Built-in mic
 - Bluetooth Intel
 
-# Not working:
+## Not working:
 - Fingerprint reader
 - SD Card Reader
 
-# Known issues
+## Known issues
 - BIOS RTC error after sleep and reboot
