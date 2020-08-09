@@ -35,5 +35,8 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina only))
 - Fingerprint reader
 - SD Card Reader
 
-## Known issues
+## 440/450 user:
+- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
+
+## Known issues:
 - BIOS RTC error after sleep and reboot
