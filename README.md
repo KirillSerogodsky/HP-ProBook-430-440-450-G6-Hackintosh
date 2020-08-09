@@ -28,6 +28,8 @@
 - Built-in camera
 - Built-in mic
 - Bluetooth Intel
+- Intel wireless ([itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort)/[
+Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina onl))
 
 ## Not working:
 - Fingerprint reader
