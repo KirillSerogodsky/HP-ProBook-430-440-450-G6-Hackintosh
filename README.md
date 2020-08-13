@@ -20,8 +20,9 @@
 - [x] Intel Graphics
 - [x] Audio
 - [x] Trackpad (gestures)
-- [x] Type-C + Video and Audio
-- [x] HDMI Video and Audio
+- [x] Type-C USB
+- [x] Type-C: video and audio
+- [x] HDMI: video and audio
 - [x] USB 3.0
 - [x] Battery Management (thanks to [anor4k](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/page-500#post-2021126) and [e285ne](https://www.tonymacx86.com/threads/guide-hp-probook-430-g6-whiskey-lake.282302/page-6#post-2147595))
 - [x] Brightness
