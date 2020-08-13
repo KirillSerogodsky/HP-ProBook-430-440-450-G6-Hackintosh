@@ -43,7 +43,7 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 - Possibly need change layout-id in boot-args
 
 ## IMPORTANT
-Make sure to add SMBIOS of MacBook Pro 15.2 in config.plis.
+Make sure to add SMBIOS of MacBook Pro 15.2 and serial number in config.plis.
 
 ## Known issues:
 - BIOS RTC error after sleep and reboot
