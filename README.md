@@ -14,9 +14,10 @@
 - macOS 10.13 High Sierra (not tested)
 - macOS 10.14 Mojave (not tested)
 - macOS 10.15 Catalina
-- macOS 11.00 Big Sur (Beta)
+- macOS 11.00 Big Sur
 
 ## What is Working?
+<<<<<<< HEAD
 
 - Native CPU Power Management
 - Sleep/Wake
@@ -42,5 +43,37 @@
 - SD Card Reader
 
 ## For 440/450 users:
+=======
+- [x] Native CPU Power Management
+- [x] Sleep/Wake
+- [x] Intel Graphics
+- [x] Audio
+- [x] Trackpad (gestures)
+- [x] Type-C USB
+- [x] Type-C: video and audio
+- [x] HDMI: video and audio
+- [x] USB 3.0
+- [x] Battery Management (thanks to [anor4k](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/page-500#post-2021126) and [e285ne](https://www.tonymacx86.com/threads/guide-hp-probook-430-g6-whiskey-lake.282302/page-6#post-2147595))
+- [x] Brightness
+- [x] Brightness fn keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
+- [x] Built-in camera
+- [x] Built-in mic
+- [x] Bluetooth Intel
+- [x] Intel wireless ([itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort)/[
+Black80211](https://github.com/usr-sse2/Black80211-Catalina))
+- [x] Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
+
+## Not working:
+- [ ] Fingerprint reader
+- [ ] SD Card Reader
+- [ ] Line-in mic (checking and fixing daemon script)
+
+## For 440/450 users:
+- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
+- Possibly need change layout-id in boot-args
+
+## IMPORTANT
+Make sure to add SMBIOS of MacBook Pro 15.2 and serial number in config.plis.
+>>>>>>> 857d07350d890d7f2ac5b9eede5228d29559c4ee
 
 - Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
