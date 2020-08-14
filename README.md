@@ -1,20 +1,23 @@
 # HP ProBook 430/440/450 G6 Hackintosh
 
 ## Configuration
+
 | Specifications      | Detail                       |
-|---------------------|------------------------------|
+| ------------------- | ---------------------------- |
 | CPU                 | Intel(R) Core(TM) i5-8265U   |
 | Integrated Graphics | Intel UHD Graphics 620       |
 | Sound Card          | Realtek ALC236 (layout-id:3) |
 | Wireless Card       | Intel Wireless               |
 
 ## MacOS Versions Supported:
+
 - macOS 10.13 High Sierra (not tested)
 - macOS 10.14 Mojave (not tested)
 - macOS 10.15 Catalina
 - macOS 11.00 Big Sur (Beta)
 
 ## What is Working?
+
 - Native CPU Power Management
 - Sleep/Wake
 - Intel Graphics
@@ -30,15 +33,14 @@
 - Built-in mic
 - Bluetooth Intel
 - Intel wireless ([itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort)/[
-Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina only))
+  Black80211](https://github.com/usr-sse2/Black80211-Catalina)(Catalina only))
 - Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
 
 ## Not working:
+
 - Fingerprint reader
 - SD Card Reader
 
 ## For 440/450 users:
-- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
 
-## Known issues:
-- BIOS RTC error after sleep and reboot
+- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
