@@ -17,8 +17,6 @@
 - macOS 11.00 Big Sur
 
 ## What is Working?
-<<<<<<< HEAD
-
 - Native CPU Power Management
 - Sleep/Wake
 - Intel Graphics
@@ -43,7 +41,6 @@
 - SD Card Reader
 
 ## For 440/450 users:
-=======
 - [x] Native CPU Power Management
 - [x] Sleep/Wake
 - [x] Intel Graphics
@@ -74,6 +71,3 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 
 ## IMPORTANT
 Make sure to add SMBIOS of MacBook Pro 15.2 and serial number in config.plis.
->>>>>>> 857d07350d890d7f2ac5b9eede5228d29559c4ee
-
-- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
