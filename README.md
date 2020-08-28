@@ -41,12 +41,12 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 ## BIOS settings
 - [ ] Fast Boot
 - Secure Boot Configurations - Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boot Disable
-- [ ] System Options
+- [ ] VTx in System Options
 - Wake On LAN = Disabled
 - Wake On WLAN = Disabled
 - Video Memory size = 64 MB
 - [ ] Fingerprint Device
-- [ ] Port Options - Media Card Reader
+- [ ] Media Card Reader in Port Options
 - Wake on USB = optional
 
 ## For 440/450 users:
