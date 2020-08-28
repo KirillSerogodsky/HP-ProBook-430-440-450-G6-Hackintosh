@@ -10,9 +10,6 @@
 | Wireless Card       | Intel Wireless               |
 
 ## MacOS Versions Supported:
-
-- macOS 10.13 High Sierra (not tested)
-- macOS 10.14 Mojave (not tested)
 - macOS 10.15 Catalina
 - macOS 11.00 Big Sur
 
@@ -41,9 +38,20 @@ Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 - [ ] SD Card Reader
 - [ ] Line-in mic (checking and fixing daemon script)
 
+## BIOS settings
+- [ ] Fast Boot
+- Secure Boot Configurations - Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boot Disable
+- [ ] System Options
+- Wake On LAN = Disabled
+- Wake On WLAN = Disabled
+- Video Memory size = 64 MB
+- [ ] Fingerprint Device
+- [ ] Port Options - Media Card Reader
+- Wake on USB = optional
+
 ## For 440/450 users:
-- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext**
-- Possibly need change layout-id in boot-args
+- Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext** using **[Dortania guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)** or **[Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v3-x-x.254559/)**.
+- Possibly need change layout-id in boot-args for **AppleALC.kext**
 
 ## IMPORTANT
 Make sure to add SMBIOS of MacBook Pro 15.2 and serial number in config.plis.
