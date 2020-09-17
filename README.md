@@ -29,8 +29,7 @@
 - [x] Built-in camera
 - [x] Built-in mic
 - [x] Bluetooth Intel
-- [x] Intel wireless ([itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort)/[
-Black80211](https://github.com/usr-sse2/Black80211-Catalina))
+- [x] Intel wireless ([AirportItlwm](https://github.com/OpenIntelWireless/itlwm) / [itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort) / [itlwm](https://github.com/OpenIntelWireless/itlwm) + [Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 - [x] Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
 
 ## Not working:
