@@ -33,6 +33,10 @@
 Black80211](https://github.com/usr-sse2/Black80211-Catalina))
 - [x] Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
 
+## Wifi Setup:
+- [ ] download [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/download/v1.0.0/HeliPort.dmg) and install the app  , run app and fun . 
+- [ ] you can make the  HeliPort app run every startaup by Following this Guide [Open items automatically when you log in on Mac](https://support.apple.com/guide/mac-help/open-items-automatically-when-you-log-in-mh15189/mac)
+
 ## Not working:
 - [ ] Fingerprint reader
 - [ ] SD Card Reader
