@@ -10,10 +10,40 @@
 | Wireless Card       | Intel Wireless               |
 
 ## MacOS Versions Supported:
-- macOS 10.15 Catalina
-- macOS 11.00 Big Sur
+
+- macOS Big Sur
+
+## Changelog
+
+### 3-23-2021
+
+#### Update
+
+- `OpenCore` v0.6.7
+- `AppleALC` v1.5.8
+- `CPUFriend` v1.2.4
+- `HibernationFixup` v1.3.9
+- `Lilu` v1.5.1
+- `VirtualSMC` v1.2.1
+- `VoodooI2C` v2.6.5
+- `VoodooPS2Controller` v2.2.2
+- `WhateverGreen` v1.4.8
+
+#### Add
+
+- `AirportItlwm` v1.3.0
+- OC resources(modern)
+
+#### Change
+
+- Change `alcid=11` boot-args(fix line-in mic)
+
+#### Remove
+
+- Remove `CodecComander`
 
 ## What is Working?
+
 - [x] Native CPU Power Management
 - [x] Sleep/Wake
 - [x] Intel Graphics
@@ -28,16 +58,18 @@
 - [x] Brightness fn keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
 - [x] Built-in camera
 - [x] Built-in mic
+- [x] Line-in mic
 - [x] Bluetooth Intel
-- [x] Intel wireless ([AirportItlwm](https://github.com/OpenIntelWireless/itlwm) / [itlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort) / [itlwm](https://github.com/OpenIntelWireless/itlwm) + [Black80211](https://github.com/usr-sse2/Black80211-Catalina))
+- [x] Intel wireless
 - [x] Fn keys: play/pause, prt scr(F13), sound mute/-/+, sleep
 
 ## Not working:
+
 - [ ] Fingerprint reader
 - [ ] SD Card Reader
-- [ ] Line-in mic (checking and fixing daemon script)
 
 ## BIOS settings
+
 - [ ] Fast Boot
 - Secure Boot Configurations - Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boot Disable
 - [ ] VTx in System Options
@@ -49,8 +81,10 @@
 - Wake on USB = optional
 
 ## For 440/450 users:
+
 - Disable **USBPorts.kext** and remap USB with **USBInjectAll.kext** using **[Dortania guide](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)** or **[Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v3-x-x.254559/)**.
 - Possibly need change layout-id in boot-args for **AppleALC.kext**
 
 ## IMPORTANT
+
 Make sure to add SMBIOS of MacBook Pro 15.2 and serial number in config.plis.
